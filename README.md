@@ -1,6 +1,6 @@
-# __
+# ___
 
-[Demo](https://alii16.github.io/__/)
+[Demo](https://alii16.github.io/___/)
 
 ## 🚀 How to Use
 
@@ -8,10 +8,10 @@
 
     ```bash
     # Clone this repository or download it
-    $ git clone https://github.com/alii16/calculator
+    $ git clone https://github.com/alii16/___
 
     # Go into the repository
-    $ cd __
+    $ cd ___
 
     # Open it with your text editor
     $ code .
