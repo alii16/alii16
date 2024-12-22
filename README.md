@@ -1,54 +1,39 @@
-## Hi there! 👋
+# Ali Polanunu's GitHub Stats
 
-I'm Ali Polanunu, a web developer and student at ITB-STIKOM Ambonn who loves creating innovative solutions and exploring new technologies. Let's connect and collaborate!
+<div align="center">
 
-## About Me
+<img src="https://media.licdn.com/dms/image/v2/D5603AQGb0LvAycwMsA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723907823614?e=1740614400&v=beta&t=4uWgNLPhL23nVl2Vy6uuvUcBJTii39NIqba4R3RLsRU" alt="Profile" width="200" height="200" style="border-radius: 50%; margin-bottom: 20px;">
 
-I'm a developer with a keen interest in web technologies and software development. You can find me sharing my insights and projects on my [Instagram](https://www.instagram.com/aliiwithahoodie/).
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alii16&show_icons=true&theme=radical)
 
-## Skills & Technologies
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=alii16&theme=radical)
 
-html,css,php,flutter,dart,nodejs,mongodb,git,js,laravel,py,mysql
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alii16&layout=compact&theme=radical)
 
-## Top Projects
+### Skills
+![html](https://img.shields.io/badge/html-3b82f6?style=for-the-badge&logo=html&logoColor=white)
+![css](https://img.shields.io/badge/css-3b82f6?style=for-the-badge&logo=css&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-eab308?style=for-the-badge&logo=javascript&logoColor=white)
+![php](https://img.shields.io/badge/php-eab308?style=for-the-badge&logo=php&logoColor=white)
+![python](https://img.shields.io/badge/python-eab308?style=for-the-badge&logo=python&logoColor=white)
+![mysql](https://img.shields.io/badge/mysql-eab308?style=for-the-badge&logo=mysql&logoColor=white)
+![laravel](https://img.shields.io/badge/laravel-eab308?style=for-the-badge&logo=laravel&logoColor=white)
+![flutter](https://img.shields.io/badge/flutter-22c55e?style=for-the-badge&logo=flutter&logoColor=white)
+![dart](https://img.shields.io/badge/dart-22c55e?style=for-the-badge&logo=dart&logoColor=white)
+![git](https://img.shields.io/badge/git-3b82f6?style=for-the-badge&logo=git&logoColor=white)
 
-- [random-meme-generator](https://github.com/alii16/random-meme-generator) - A fun meme generator app. ⭐ 0 Stars | Language: HTML | Forks: 0 | Issues: 0
-- [instagram-unfollower-checker](https://github.com/alii16/instagram-unfollower-checker) - Check who unfollowed you on Instagram. ⭐ 0 Stars | Language: HTML | Forks: 0 | Issues: 0
-- [tic-tac-toe](https://github.com/alii16/tic-tac-toe) - Classic tic-tac-toe game. ⭐ 0 Stars | Language: JavaScript | Forks: 0 | Issues: 0
-- [calculator](https://github.com/alii16/calculator) - A simple calculator app. ⭐ 0 Stars | Language: HTML | Forks: 0 | Issues: 0
-- [GoCart-Shop](https://github.com/alii16/GoCart-Shop) - E-commerce platform developed with PHP. ⭐ 0 Stars | Language: PHP | Forks: 0 | Issues: 0
+### Connect With Me
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/alii16)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/johndoe)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/johndoe)
+[![Website](https://img.shields.io/badge/Website-4CAF50?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://alii.mra.my.id)
+### Contributions
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=alii16&theme=react-dark)
 
-## GitHub Stats
+### Profile Views
+![Profile Views](https://komarev.com/ghpvc/?username=alii16&color=blueviolet)
 
-🌟 Public Repositories: 28 
-👥 Followers: 1 
-🔗 Following: 1
+### Trophy Case
+![Trophies](https://github-profile-trophy.vercel.app/?username=alii16&theme=darkhub&row=1)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alii16&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&theme=radical)
-
-## Recent Activity
-
-- Updated README.md on [alii16](https://github.com/alii16/alii16) 
-- Created README.md on [random-meme-generator](https://github.com/alii16/random-meme-generator) 
-- Updated README.md on [calculator](https://github.com/alii16/calculator)
-
-## My Blog
-
-Come and see my portfolio at [My Portfolio](https://alii.mra.my.id).
-
-## Connect with Me
-
-[Instagram](https://www.instagram.com/aliiwithahoodie/) ||
-[LinkedIn](https://www.linkedin.com/in/alii-polanunu/)
-|| [Facebook](https://www.facebook.com/polanunu.dah/) || [Stackoverflow](https://stackoverflow.com/users/28511118/ali-polanunu/).
-
-## ASCII Art
-
-```
-        _ _ _ _  __   
-   __ _| (_|_) |/ /_  
-  / _` | | | | | '_ \ 
- | (_| | | | | | (_) |
-  \__,_|_|_|_|_|\___/ 
-                      
-```
+</div>
