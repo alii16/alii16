@@ -2,6 +2,13 @@
 
 ###
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=alii6&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alii6&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
+
+###
+
 <img align="right" height="150" src="https://media.licdn.com/dms/image/v2/D5603AQGb0LvAycwMsA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723907823614?e=1740614400&v=beta&t=4uWgNLPhL23nVl2Vy6uuvUcBJTii39NIqba4R3RLsRU"  />
 
 ###
@@ -46,5 +53,11 @@
     <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
   </a>
 </div>
+
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/alii6/alii6/output/snake.svg" alt="Snake animation" />
 
 ###
