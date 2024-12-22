@@ -1,62 +1,54 @@
-<h2 align="left">Hi 👋! My name is Ali Polanunu, I'm a web developer and student at ITB-STIKOM Ambon, it's "he/him"</h2>
+## Hi there! 👋
 
-###
+I'm Ali Polanunu, a web developer and student at ITB-STIKOM Ambonn who loves creating innovative solutions and exploring new technologies. Let's connect and collaborate!
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alii16&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=alii6&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alii16&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+## About Me
 
-###
+I'm a developer with a keen interest in web technologies and software development. You can find me sharing my insights and projects on my [Instagram](https://www.instagram.com/aliiwithahoodie/).
 
-<img align="right" height="150" src="https://media.licdn.com/dms/image/v2/D5603AQGb0LvAycwMsA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723907823614?e=1740614400&v=beta&t=4uWgNLPhL23nVl2Vy6uuvUcBJTii39NIqba4R3RLsRU"  />
+## Skills & Technologies
 
-###
+html,css,php,flutter,dart,nodejs,mongodb,git,js,laravel,py,mysql
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-</div>
+## Top Projects
 
-###
+- [random-meme-generator](https://github.com/alii16/random-meme-generator) - A fun meme generator app. ⭐ 0 Stars | Language: HTML | Forks: 0 | Issues: 0
+- [instagram-unfollower-checker](https://github.com/alii16/instagram-unfollower-checker) - Check who unfollowed you on Instagram. ⭐ 0 Stars | Language: HTML | Forks: 0 | Issues: 0
+- [tic-tac-toe](https://github.com/alii16/tic-tac-toe) - Classic tic-tac-toe game. ⭐ 0 Stars | Language: JavaScript | Forks: 0 | Issues: 0
+- [calculator](https://github.com/alii16/calculator) - A simple calculator app. ⭐ 0 Stars | Language: HTML | Forks: 0 | Issues: 0
+- [GoCart-Shop](https://github.com/alii16/GoCart-Shop) - E-commerce platform developed with PHP. ⭐ 0 Stars | Language: PHP | Forks: 0 | Issues: 0
 
-<div align="left">
-  <a href="stagram.com/aliiwithahoodie/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <a href="https://stackoverflow.com/users/28511118/ali-polanunu" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&label=&color=FE7A16&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="stackoverflow logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/alii-polanunu/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.facebook.com/polanunu.dah/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
-  </a>
-</div>
+## GitHub Stats
 
-###
+🌟 Public Repositories: 28 
+👥 Followers: 1 
+🔗 Following: 1
 
-<br clear="both">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alii16&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&theme=radical)
 
-<img src="https://raw.githubusercontent.com/alii16/alii6/output/snake.svg" alt="Snake animation" />
+## Recent Activity
 
-###
+- Updated README.md on [alii16](https://github.com/alii16/alii16) 
+- Created README.md on [random-meme-generator](https://github.com/alii16/random-meme-generator) 
+- Updated README.md on [calculator](https://github.com/alii16/calculator)
+
+## My Blog
+
+Come and see my portfolio at [My Portfolio](https://alii.mra.my.id).
+
+## Connect with Me
+
+[Instagram](https://www.instagram.com/aliiwithahoodie/) ||
+[LinkedIn](https://www.linkedin.com/in/alii-polanunu/)
+|| [Facebook](https://www.facebook.com/polanunu.dah/) || [Stackoverflow](https://stackoverflow.com/users/28511118/ali-polanunu/).
+
+## ASCII Art
+
+```
+        _ _ _ _  __   
+   __ _| (_|_) |/ /_  
+  / _` | | | | | '_ \ 
+ | (_| | | | | | (_) |
+  \__,_|_|_|_|_|\___/ 
+                      
+```
