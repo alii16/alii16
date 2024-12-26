@@ -36,6 +36,10 @@
 ### Trophy Case
 ![Trophies](https://github-profile-trophy.vercel.app/?username=alii16&theme=darkhub&row=1)
 
-![snake animation](https://github.com/alii16/alii16/blob/output/github-contribution-grid-snake2.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/alii16/alii16/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/alii16/alii16/blob/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://github.com/alii16/alii16/blob/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
