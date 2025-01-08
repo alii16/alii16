@@ -6,7 +6,7 @@
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alii16&show_icons=true&theme=radical)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=alii16&theme=radical)
+[![GitHub Streak](https://streak-stats.demolab.com?user=alii16&theme=radical)](https://git.io/streak-stats)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alii16&layout=compact&theme=radical)
 
