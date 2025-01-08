@@ -6,7 +6,7 @@
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alii16&show_icons=true&theme=radical)
 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=alii16&theme=radical" alt="GitHub Streak" /></a>
+![GitHub Streak](https://streak-stats.demolab.com?user=alii16&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alii16&layout=compact&theme=radical)
 
