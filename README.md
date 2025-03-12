@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://media.licdn.com/dms/image/v2/D5603AQGb0LvAycwMsA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723907823614?e=1740614400&v=beta&t=4uWgNLPhL23nVl2Vy6uuvUcBJTii39NIqba4R3RLsRU" alt="Profile" width="200" height="200" style="border-radius: 50%; margin-bottom: 20px;">
+<img src="https://imgur.com/a/vUWMCBm" alt="Profile" width="200" height="200" style="border-radius: 50%; margin-bottom: 20px;">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alii16&show_icons=true&theme=radical)
 
