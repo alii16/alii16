@@ -1,0 +1,55 @@
+name: Update Account Age Badge
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Hitung umur akun & update badge
+        run: |
+          import datetime
+          from datetime import timezone
+
+          created_at = datetime.datetime(2023, 12, 23, 7, 35, 29, tzinfo=timezone.utc)
+          now = datetime.datetime.now(timezone.utc)
+          delta = now - created_at
+
+          years = delta.days // 365
+          months = (delta.days % 365) // 30
+          days = (delta.days % 365) % 30
+
+          badge = f"https://img.shields.io/badge/Age-{years}y%20{months}m%20{days}d-blueviolet?style=for-the-badge&logo=github"
+
+          readme_path = "README.md"
+          with open(readme_path, "r") as f:
+              content = f.read()
+
+          import re
+          new_content = re.sub(
+              r"!\[Account Age\]\([^)]+\)",
+              f"![Account Age]({badge})",
+              content
+          )
+
+          with open(readme_path, "w") as f:
+              f.write(new_content)
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update account age badge" || echo "No changes to commit"
+          git push
