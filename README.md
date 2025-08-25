@@ -1,7 +1,7 @@
 # Ali Polanunu's GitHub Stats
 
 <div align="center">
-<img src="https://i.imgur.com/bQ3jCTt.jpeg" alt="Profile" width="300" style="border-radius: 50%; border: 5px solid #0E9F6E; margin-bottom: 20px;">
+<img src="https://i.imgur.com/bQ3jCTt.jpeg" alt="Profile" width="300" style="border-radius: 50%; border: 5px solid #FACA15; margin-bottom: 20px;">
 
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alii16&show_icons=true&theme=radical)
