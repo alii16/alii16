@@ -1,0 +1,57 @@
+name: Generate Account Age JSON
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Hitung umur akun & buat JSON
+        run: |
+          import datetime, json
+          from datetime import timezone
+
+          created_at = datetime.datetime(2023, 12, 23, 7, 35, 29, tzinfo=timezone.utc)
+          now = datetime.datetime.now(timezone.utc)
+          delta = now - created_at
+
+          years = delta.days // 365
+          months = (delta.days % 365) // 30
+          days = (delta.days % 365) % 30
+
+          label = "Account Age"
+          message = f"{years}y {months}m {days}d"
+          color = "blueviolet"
+
+          data = {
+            "schemaVersion": 1,
+            "label": label,
+            "message": message,
+            "color": color
+          }
+
+          with open("account-age.json", "w") as f:
+              json.dump(data, f)
+
+      - name: Commit JSON ke branch output
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B output
+          git add account-age.json
+          git commit -m "update account age json" || echo "No changes"
+          git push origin output --force
