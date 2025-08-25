@@ -1,6 +1,6 @@
 # Ali Polanunu's GitHub Stats
 
-![Account Age](https://img.shields.io/badge/Age-Calculating...-blueviolet?style=for-the-badge&logo=github)
+![Account Age](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/alii16/alii16/output/account-age.json)
 <div align="center">
 <img src="https://i.imgur.com/bQ3jCTt.jpeg" alt="Profile" width="300" style="border-radius: 50%; border: 5px solid #FACA15; margin-bottom: 20px;">
 
