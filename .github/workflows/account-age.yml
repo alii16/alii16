@@ -1,0 +1,47 @@
+name: Update Account Age Badge
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # update tiap hari jam 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Hitung umur akun
+        run: |
+          created=$(date -d "2023-12-23T07:35:29Z" +%s)
+          now=$(date +%s)
+          diff=$(( (now - created) / 86400 ))
+
+          years=$(( diff / 365 ))
+          days=$(( diff % 365 ))
+
+          if [ $years -gt 0 ]; then
+            message="${years}y ${days}d"
+          else
+            message="${days}d"
+          fi
+
+          echo "{
+            \"schemaVersion\": 1,
+            \"label\": \"Account Age\",
+            \"message\": \"$message\",
+            \"color\": \"blueviolet\"
+          }" > account-age.json
+
+      - name: Push to output branch
+        run: |
+          git checkout -B output
+          git add account-age.json
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "update account age badge" || echo "No changes to commit"
+          git push origin output --force
