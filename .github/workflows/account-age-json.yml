@@ -2,11 +2,11 @@ name: Generate Account Age JSON
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # jalan tiap hari jam 00:00 UTC
+  workflow_dispatch:      # bisa dijalankan manual
 
 permissions:
-  contents: write
+  contents: write         # biar bisa push ke branch output
 
 jobs:
   generate:
