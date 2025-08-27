@@ -15,27 +15,66 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Hitung umur akun
+      - name: Hitung umur akun (format Y m d yang akurat)
         run: |
-          created=$(date -d "2023-12-23T07:35:29Z" +%s)
-          now=$(date +%s)
-          diff=$(( (now - created) / 86400 ))
+          python3 - << 'PY'
+          from datetime import datetime, timezone
+          from calendar import monthrange
+          import json
 
-          years=$(( diff / 365 ))
-          days=$(( diff % 365 ))
+          # === KONFIGURASI: tanggal pembuatan akun (UTC) ===
+          CREATED_ISO = "2023-12-23T07:35:29Z"
 
-          if [ $years -gt 0 ]; then
-            message="${years}y ${days}d"
-          else
-            message="${days}d"
-          fi
+          # Parse created (UTC)
+          created = datetime.strptime(CREATED_ISO, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+          # "now" pakai UTC agar konsisten dengan CRON
+          now = datetime.now(timezone.utc)
 
-          echo "{
-            \"schemaVersion\": 1,
-            \"label\": \"Account Age\",
-            \"message\": \"$message\",
-            \"color\": \"blueviolet\"
-          }" > account-age.json
+          # Konversi ke tanggal (abaikan jam-menit-detik supaya hasil terasa natural)
+          a = created.date()
+          b = now.date()
+
+          # Pastikan b >= a
+          if b < a:
+              years = months = days = 0
+          else:
+              years = b.year - a.year
+              months = b.month - a.month
+              days = b.day - a.day
+
+              # Pinjam hari dari bulan sebelumnya bila perlu
+              if days < 0:
+                  # bulan sebelumnya dari b
+                  prev_month = b.month - 1 if b.month > 1 else 12
+                  prev_year = b.year if b.month > 1 else b.year - 1
+                  days_in_prev = monthrange(prev_year, prev_month)[1]
+                  days += days_in_prev
+                  months -= 1
+
+              # Pinjam tahun bila perlu
+              if months < 0:
+                  months += 12
+                  years -= 1
+
+          # Bentuk pesan yang ringkas
+          if years > 0:
+              message = f"{years}y {months}m {days}d"
+          elif months > 0:
+              message = f"{months}m {days}d"
+          else:
+              message = f"{days}d"
+
+          payload = {
+              "schemaVersion": 1,
+              "label": "Account Age",
+              "message": message,
+              "color": "blueviolet"
+          }
+
+          with open("account-age.json", "w", encoding="utf-8") as f:
+              json.dump(payload, f, ensure_ascii=False)
+          print("Badge message:", message)
+          PY
 
       - name: Push to output branch
         run: |
