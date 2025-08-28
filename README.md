@@ -12,16 +12,16 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alii16&layout=compact&theme=radical)
 
 ### Skills
-![html](https://img.shields.io/badge/html-3b82f6?style=for-the-badge&logo=html&logoColor=white)
-![css](https://img.shields.io/badge/css-3b82f6?style=for-the-badge&logo=css&logoColor=white)
-![javascript](https://img.shields.io/badge/javascript-eab308?style=for-the-badge&logo=javascript&logoColor=white)
-![php](https://img.shields.io/badge/php-eab308?style=for-the-badge&logo=php&logoColor=white)
-![python](https://img.shields.io/badge/python-eab308?style=for-the-badge&logo=python&logoColor=white)
-![mysql](https://img.shields.io/badge/mysql-eab308?style=for-the-badge&logo=mysql&logoColor=white)
-![laravel](https://img.shields.io/badge/laravel-eab308?style=for-the-badge&logo=laravel&logoColor=white)
-![flutter](https://img.shields.io/badge/flutter-22c55e?style=for-the-badge&logo=flutter&logoColor=white)
-![dart](https://img.shields.io/badge/dart-22c55e?style=for-the-badge&logo=dart&logoColor=white)
-![git](https://img.shields.io/badge/git-3b82f6?style=for-the-badge&logo=git&logoColor=white)
+![html](https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![php](https://img.shields.io/badge/php-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![laravel](https://img.shields.io/badge/laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![flutter](https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![dart](https://img.shields.io/badge/dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### Connect With Me
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/alii16)
