@@ -4,7 +4,7 @@
 
 ### 💻 Developer | 🚀 Tech Enthusiast | 🌐 Problem Solver
 
-[![Website](https://img.shields.io/badge/Website-aptech.my.id-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aptech.my.id)
+[![Website](https://img.shields.io/badge/Website-codingbyali.site-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://codingbyali.site)
 [![GitHub](https://img.shields.io/badge/GitHub-alii16-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alii16)
 [![Profile Views](https://komarev.com/ghpvc/?username=alii16&color=00C7B7&style=for-the-badge&label=Profile+Views)](https://github.com/alii16)
 
